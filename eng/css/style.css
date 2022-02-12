@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.online__form input,
+.online__form select {
+  margin: 8px 0px;
+  border: 0;
+  border-radius: 25px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  color: #000;
+  letter-spacing: 0;
+  padding: 10px 15px;
+  width: 100%;
+}
+[type="submit"] {
+  background-color: #021a5e !important;
+  color: #ffffff !important;
+}
+select:required:invalid {
+  color: grey;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #212529;
+  text-align: left;
+}
+#first__sec {
+  background-image: url(../img/qs-ranking-banner.jpg);
+  height: 100vh;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+  background-repeat: no-repeat;
+  min-height: 830px;
+}
+.registration__container {
+  position: absolute;
+  width: 100%;
+  max-width: 590px;
+  left: 7%;
+  top: 20%;
+}
+.logo__title > h1 {
+  font-size: 30px;
+}
+.logo__title > h1 span {
+  font-size: 48px;
+}
+.head__onetitle > span {
+  color: #021a5e;
+}
+.fields {
+  position: relative;
+}
+.fields i {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  visibility: hidden;
+}
+.fields.success i.fa-check-circle {
+  color: #2ecc71;
+  visibility: visible;
+}
+.fields.error i.fa-exclamation-circle {
+  color: #e74c3c;
+  visibility: visible;
+}
+.fields small {
+  color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+.fields.error small {
+  visibility: visible;
+}
+#sec__sec {
+  background: #f1f1f1;
+  padding-bottom: 50px;
+}
+.about__sec {
+  text-align: center;
+  margin: 35px 0;
+}
+.cucet-phase-1 {
+  text-align: center;
+  background-color: #021a5e;
+  color: #ffffff;
+  padding: 15px 15px 30px 15px;
+  border-radius: 15px;
+}
+.box-head {
+  margin: 15px 0;
+}
+.box-head h5 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.box-head span,
+.cucet-phase-1 ul li {
+  font-size: 14px;
+}
+.cucet-phase-1 ul {
+  padding: 0;
+  margin-bottom: 20px;
+  list-style-type: none;
+}
+.cucet-phase-1 ul li {
+  border-bottom: 1px dashed #1a347e;
+  padding: 7px 0;
+}
+.cucet-phase-1 ul li span {
+  font-size: 18px;
+}
+a.box-btn {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 10px 15px;
+  margin: 11px 5px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+.content-second-box {
+  box-shadow: 0 13px 47px rgb(0 0 0 / 11%);
+  transform: scale(1.5, 1.1);
+  z-index: -1;
+  padding: 137px 36px;
+  background-color: #fff;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+.cucet-phase-2 {
+  transform: scale(0.7, 1);
+  text-align: center;
+}
+.cucet-phase-2 h5 {
+  font-size: 30px;
+  line-height: 32px;
+  color: #373435;
+}
+.box__one,
+.box__three {
+  z-index: 99;
+}
+.cucet-phase-2 strong span {
+  font-size: 110px;
+  line-height: 84px;
+}
+.cucet-phase-2 strong {
+  font-size: 48px;
+  line-height: 40px;
+  color: #021a5e;
+}
+.promo-video {
+  margin-top: 70px;
+}
+p.slide-description {
+  font-size: 15px;
+  color: #686868;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+.student-info-content {
+  margin-bottom: 20px;
+}
+.student-info-content h4 {
+  margin-bottom: 8px;
+  color: #000;
+  font-weight: 600;
+  font-size: 18px;
+}
+.student-info-content h4 span {
+  font-size: 12px;
+}
+.student-info-content img {
+  max-width: 100px;
+  width: 100%;
+}
+.video-slider {
+  margin-bottom: 50px;
+}
+.promo-video-inr {
+  position: relative;
+}
+.promo-video-inr img {
+  width: 100%;
+}
+.promo-video-inr:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.22;
+}
+.promo-video-inr span {
+  position: absolute;
+  top: 40%;
+  left: 43%;
+}
+.promo-video-inr span a {
+  line-height: 80px;
+  display: inline-block;
+  width: 80px;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #fff;
+  background-color: #021a5e;
+  border-radius: 50%;
+}
+.prmo-vido-mckp {
+  float: left;
+  padding-left: 60px;
+  width: calc(100% + 270px);
+  margin-top: -100px;
+  position: relative;
+  z-index: 999;
+}
+.student-placement {
+  background-image: url("../img/Image5.jpg");
+  padding: 60px 0;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.highlights {
+  background-color: rgb(241 243 243 / 74%);
+  padding: 35px;
+  text-align: center;
+  border-radius: 10px;
+}
+.main-heading p span {
+  font-weight: 600;
+}
+.highlights .row .box {
+  padding: 15px 15px;
+  border-bottom: 1px solid #ffffff;
+}
+.highlights.row.box:nth-child(even) {
+  border-right: 1px solid #fff;
+}
+.placementBox h2 span,
+.placementBox h6 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.placementBox h6 span {
+  color: #a32628;
+  font-size: 24px;
+  font-weight: bold;
+}
+.placementBox h2 {
+  font-size: 55px;
+  font-weight: 600;
+}
+.placement-opportunity ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.placement-opportunity ul li {
+  position: relative;
+  margin-left: 25px;
+}
+.placement-opportunity ul li .fa-circle {
+  position: absolute;
+  margin-left: -25px;
+  top: 4px;
+  color: #a32628;
+}
